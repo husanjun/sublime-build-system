@@ -1,5 +1,9 @@
-{ 
-    "cmd": ["php", "$file"],
-    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)", 
-    "selector": "source.php" 
+{
+    "cmd": [
+        "php",
+        "$file",
+        "$folder"
+    ],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.php"
 }
